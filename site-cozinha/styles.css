@@ -1,0 +1,76 @@
+*{  margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #F55257;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+}
+
+header img{
+    margin-left: 25px;
+    width: 100px;
+}
+
+.banner img {
+    width: 1263px;
+}
+
+.categorias {
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.categoria {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.categoria:hover {
+    background-color: #EF7B61;
+}
+
+.título {
+    text-align: center;
+    color: black;
+}
+
+.receita {
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+}
+
+.receita img {
+    max-width: 265px;
+}
+
+.botaovermais {
+    display: block;
+    margin: 0 auto;
+    background-color: #EF7B61;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.botaovermais:hover {
+    background-color: #E6490D;
+}
